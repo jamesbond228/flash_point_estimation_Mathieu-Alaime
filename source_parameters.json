@@ -1,0 +1,33 @@
+{
+  "model": "Mathieu_Alaime_2014",
+  "model_version": "1.0.0",
+  "temperature_unit": "K",
+  "equation_source": "Mathieu & Alaime (2014) J. Hazard. Mater. 267, 169-174, Eq.(1)-(2), p.170; worked example Eq.(3), p.173",
+  "alpha": {
+    "value": 0.4,
+    "source": "Section 3 (Results), p.171: alpha = 2/5"
+  },
+  "parameters": {
+    "C3-0":  {"t_k": 136.3, "sd_k": 0.3, "n_occ": 111, "source": "Table 1, p.170"},
+    "C3-1":  {"t_k": 125.6, "sd_k": 0.2, "n_occ": 93,  "source": "Table 1, p.170"},
+    "C3-2":  {"t_k": 108.5, "sd_k": 0.3, "n_occ": 19,  "source": "Table 1, p.170"},
+    "C4-0":  {"t_k": 126.6, "sd_k": 0.4, "n_occ": 24,  "source": "Table 1, p.170"},
+    "C4-1":  {"t_k": 122.0, "sd_k": 0.3, "n_occ": 87,  "source": "Table 1, p.170"},
+    "C4-2":  {"t_k": 132.3, "sd_k": 0.0, "n_occ": 223, "source": "Table 1, p.170"},
+    "C4-3":  {"t_k": 109.5, "sd_k": 0.2, "n_occ": 272, "source": "Table 1, p.170"},
+    "N2-0":  {"t_k": 145.3, "sd_k": 0.6, "n_occ": 5,   "source": "Table 1, p.170"},
+    "N3-0":  {"t_k": 168.1, "sd_k": 0.7, "n_occ": 3,   "source": "Table 1, p.170"},
+    "N3-1":  {"t_k": 182.2, "sd_k": 0.5, "n_occ": 7,   "source": "Table 1, p.170"},
+    "N3-2":  {"t_k": 205.6, "sd_k": 0.3, "n_occ": 14,  "source": "Table 1, p.170"},
+    "O1-0":  {"t_k": 175.2, "sd_k": 0.3, "n_occ": 72,  "source": "Table 1, p.170"},
+    "O2-0":  {"t_k": 112.1, "sd_k": 0.2, "n_occ": 47,  "source": "Table 1, p.170"},
+    "O2-1":  {"t_k": 241.3, "sd_k": 0.2, "n_occ": 63,  "source": "Table 1, p.170"},
+    "S2-0":  {"t_k": 202.8, "sd_k": 0.6, "n_occ": 4,   "source": "Table 1, p.170"},
+    "S2-1":  {"t_k": 190.1, "sd_k": 0.4, "n_occ": 8,   "source": "Table 1, p.170"},
+    "Cl1-0": {"t_k": 178.7, "sd_k": 0.4, "n_occ": 5,   "source": "Table 1, p.170"},
+    "CN":    {"t_k": 242.3, "sd_k": 0.6, "n_occ": 4,   "source": "Table 1, p.170 (cyano group, counted once for the C and N atoms)"},
+    "R5":    {"t_k": -113.0, "sd_k": 0.8, "n_occ": 2,  "source": "Table 1, p.170"},
+    "R6":    {"t_k": -81.9, "sd_k": 0.5, "n_occ": 9,   "source": "Table 1, p.170"},
+    "R6a":   {"t_k": 156.7, "sd_k": 1.0, "n_occ": 50,  "source": "Table 1, p.170"}
+  }
+}
